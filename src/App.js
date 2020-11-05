@@ -1,10 +1,11 @@
 import "./App.css";
-import Api from "./component/Api";
+import TodoListContext from "./component/TodoListContext";
 
 function App() {
   return (
     <div className="App">
-      <Api />
+      <h1>To Do List</h1>
+      <TodoListContext />
     </div>
   );
 }
