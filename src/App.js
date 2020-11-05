@@ -1,6 +1,7 @@
 import "./App.css";
 import Api from "./component/Api";
 import Counter from "./component/Counter";
+import Random from "./component/Random";
 import TodoListContext from "./component/TodoListContext";
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
       <Api />
       <h1>Couter</h1>
       <Counter />
+      <h1>Random</h1>
+      <Random />
     </div>
   );
 }
